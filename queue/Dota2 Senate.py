@@ -39,4 +39,21 @@ n == senate.length
 senate[i] is either 'R' or 'D'.
 
 """
-
+class Solution:
+    def predictPartyVictory(self, senate: str) -> str:
+        repqueue = deque()
+        demqueue = deque()
+        n = len(senate)
+        for i in range(n):
+            if senate[i] == 'R':
+                repqueue.append(i)
+            else : 
+                demqueue.append(i)
+        while repqueue and demqueue :
+            repindex = repqueue.popleft()
+            demindex = demqueue.popleft()
+            if repindex < demindex:
+                repqueue.append(repindex + n)
+            else:
+                demqueue.append(demindex + n)
+        return "Radiant" if repqueue else "Dire"
