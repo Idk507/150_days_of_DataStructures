@@ -1,4 +1,4 @@
-Absolutely Dhanush! Let’s break it down like you're hearing these words for the **first time** — step by step, beginner-friendly. We’ll cover:
+
 
 1. 🔢 What are **Bits**?  
 2. ⚙️ What is **Bit Manipulation**?  
