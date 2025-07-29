@@ -1,4 +1,3 @@
-Great! Let's go **deep into Arrays** — including **static and dynamic arrays**, with **all core concepts and operations**, **time-space complexity**, **real-world examples**, and **memory allocation (stack/heap)**.
 
 ---
 
