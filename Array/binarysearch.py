@@ -11,7 +11,7 @@ class Solution:
             if arr[m] == k :
                 return True
             elif arr[m] < k:
-                l+=1
+                l = m+1
             else :
-                r-=1
+                r = m-1
         return False
